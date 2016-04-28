@@ -32,8 +32,9 @@ class MannerDetailViewController: UIViewController {
     
     @IBAction func backPressed(sender: AnyObject) {
         
-        let tutorialVC = self.storyboard!.instantiateViewControllerWithIdentifier("main_view")
-        self.presentViewController(tutorialVC, animated: true, completion: nil)
+        let navVC = storyboard!.instantiateViewControllerWithIdentifier("main_nav") as! UINavigationController
+        
+        self.presentViewController(navVC, animated: true, completion: nil)
     }
 }
 

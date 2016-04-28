@@ -82,7 +82,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8YE-Yh-A8i">
-                                <rect key="frame" x="0.0" y="90" width="600" height="420"/>
+                                <rect key="frame" x="0.0" y="104" width="600" height="392"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="DEz-kb-OlW">
@@ -109,7 +109,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="8YE-Yh-A8i" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="26" id="5qn-tH-R9Q"/>
+                            <constraint firstItem="8YE-Yh-A8i" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="5qn-tH-R9Q"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8YE-Yh-A8i" secondAttribute="trailing" constant="-20" id="Biq-o4-Z6X"/>
                             <constraint firstItem="8YE-Yh-A8i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GNa-Yj-0JN"/>
                             <constraint firstItem="lVQ-ci-THa" firstAttribute="centerX" secondItem="8YE-Yh-A8i" secondAttribute="centerX" id="PiX-Av-MlW"/>
@@ -164,7 +164,6 @@
                                     <bool key="isElement" value="NO"/>
                                 </accessibility>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="415" id="9SZ-zv-c6T"/>
                                     <constraint firstAttribute="height" constant="139" id="SxZ-Cy-EnH"/>
                                 </constraints>
                                 <string key="text">TestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTest</string>
@@ -178,8 +177,10 @@
                             <constraint firstItem="VsT-5i-rh2" firstAttribute="centerY" secondItem="khS-PZ-aSR" secondAttribute="centerY" constant="174.5" id="Dtv-l7-nhM"/>
                             <constraint firstItem="rbt-JL-IDL" firstAttribute="centerX" secondItem="khS-PZ-aSR" secondAttribute="centerX" id="GF9-YJ-tmg"/>
                             <constraint firstItem="VsT-5i-rh2" firstAttribute="centerX" secondItem="khS-PZ-aSR" secondAttribute="centerX" constant="0.5" id="LAT-sP-vCI"/>
+                            <constraint firstItem="VsT-5i-rh2" firstAttribute="leading" secondItem="khS-PZ-aSR" secondAttribute="leadingMargin" constant="73" id="Q4M-eT-MPi"/>
                             <constraint firstItem="pyA-2q-RAI" firstAttribute="centerX" secondItem="khS-PZ-aSR" secondAttribute="centerX" id="SXr-7X-lv9"/>
                             <constraint firstItem="pyA-2q-RAI" firstAttribute="centerY" secondItem="khS-PZ-aSR" secondAttribute="centerY" constant="-122.5" id="iEe-Qj-DpX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VsT-5i-rh2" secondAttribute="trailing" constant="72" id="pDQ-Fu-tRT"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pjk-zD-r6U">
@@ -220,7 +221,7 @@
         <!--Navigation Controller-->
         <scene sceneID="u4I-md-TqZ">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="K7g-Fc-S6S" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="main_nav" automaticallyAdjustsScrollViewInsets="NO" id="K7g-Fc-S6S" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="qUd-NH-e35">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
