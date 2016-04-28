@@ -81,7 +81,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8YE-Yh-A8i">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8YE-Yh-A8i">
                                 <rect key="frame" x="0.0" y="90" width="600" height="420"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -109,6 +109,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="8YE-Yh-A8i" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="26" id="5qn-tH-R9Q"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8YE-Yh-A8i" secondAttribute="trailing" constant="-20" id="Biq-o4-Z6X"/>
                             <constraint firstItem="8YE-Yh-A8i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GNa-Yj-0JN"/>
                             <constraint firstItem="lVQ-ci-THa" firstAttribute="centerX" secondItem="8YE-Yh-A8i" secondAttribute="centerX" id="PiX-Av-MlW"/>
