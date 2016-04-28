@@ -12,6 +12,9 @@
 		E439036B1CD1645400250C63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43903691CD1645400250C63 /* Main.storyboard */; };
 		E439036D1CD1645400250C63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E439036C1CD1645400250C63 /* Assets.xcassets */; };
 		E43903701CD1645400250C63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E439036E1CD1645400250C63 /* LaunchScreen.storyboard */; };
+		E439037A1CD1660600250C63 /* Manner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43903791CD1660600250C63 /* Manner.swift */; };
+		E439037C1CD1662A00250C63 /* MannerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E439037B1CD1662A00250C63 /* MannerDetailViewController.swift */; };
+		E439037E1CD176FF00250C63 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E439037D1CD176FF00250C63 /* EmailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		E439036C1CD1645400250C63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E439036F1CD1645400250C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E43903711CD1645400250C63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E43903791CD1660600250C63 /* Manner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manner.swift; sourceTree = "<group>"; };
+		E439037B1CD1662A00250C63 /* MannerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MannerDetailViewController.swift; sourceTree = "<group>"; };
+		E439037D1CD176FF00250C63 /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				E43903651CD1645400250C63 /* AppDelegate.swift */,
 				E43903671CD1645400250C63 /* ViewController.swift */,
 				E43903691CD1645400250C63 /* Main.storyboard */,
+				E439037D1CD176FF00250C63 /* EmailViewController.swift */,
+				E43903791CD1660600250C63 /* Manner.swift */,
+				E439037B1CD1662A00250C63 /* MannerDetailViewController.swift */,
 				E439036C1CD1645400250C63 /* Assets.xcassets */,
 				E439036E1CD1645400250C63 /* LaunchScreen.storyboard */,
 				E43903711CD1645400250C63 /* Info.plist */,
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E439037A1CD1660600250C63 /* Manner.swift in Sources */,
+				E439037C1CD1662A00250C63 /* MannerDetailViewController.swift in Sources */,
 				E43903681CD1645400250C63 /* ViewController.swift in Sources */,
 				E43903661CD1645400250C63 /* AppDelegate.swift in Sources */,
+				E439037E1CD176FF00250C63 /* EmailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
