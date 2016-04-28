@@ -44,7 +44,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         mailComposerVC.mailComposeDelegate = self // Extremely important to set the --mailComposeDelegate-- property, NOT the --delegate-- property
         
         mailComposerVC.setToRecipients([userDefaults.stringForKey("email")!])
-        mailComposerVC.setSubject("Manners Practive")
+        mailComposerVC.setSubject("Manners Practice")
         mailComposerVC.setMessageBody("I have learned \(userDefaults.integerForKey("tasks")) manners!!", isHTML: false)
         
         return mailComposerVC
